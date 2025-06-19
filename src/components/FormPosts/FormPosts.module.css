@@ -1,0 +1,18 @@
+.containerMain{
+    padding: 20px;
+}
+.titleFormPage{
+   display: flex;
+   justify-content: center;
+   font-size: 26px;
+   margin-bottom: 15px;
+}
+
+  @media screen and (min-width: 1200px){
+    .titleFormPage{
+        font-size: 36px;
+    }
+  }
+.formStyles{
+    margin-bottom: 30px;
+}
