@@ -51,7 +51,6 @@ export const FormPosts = () => {
 
   return (
     <main className={`container ${css.containerMain}`}>
-      
       <h1 className={css.titleFormPage}>Публікації</h1>
 
       <form onSubmit={handleSubmit} className={css.formStyles}>

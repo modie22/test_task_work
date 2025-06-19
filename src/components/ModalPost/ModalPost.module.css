@@ -12,27 +12,25 @@
 .containerText {
   display: flex;
   flex-direction: column;
-  gap: 20px ;
+  gap: 20px;
   background: #fff;
   padding: 20px;
   max-width: 500px;
   border-radius: 7px;
-  
 }
-.buttonModal{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    cursor: pointer;
-    align-items: center;
-    text-align: center;
-    letter-spacing: .06em;
-    min-width: 216px;
-    padding: 10px 32px;
-    border-radius: 4px;
-    color: #fff;
-    border: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
-    background-color: #2196f3;
-   
+.buttonModal {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  min-width: 216px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #2196f3;
 }

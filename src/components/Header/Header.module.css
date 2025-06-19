@@ -1,6 +1,6 @@
-.container_header{
-    display: flex;
-    align-items:center;
-    height: 100px;
-    background-color: rgb(100, 185, 219);
+.container_header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(100, 185, 219);
 }

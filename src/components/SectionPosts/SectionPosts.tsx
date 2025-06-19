@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import css from "./SectionPosts.module.css"
+import css from "./SectionPosts.module.css";
 
 interface Post {
   id: number;
@@ -14,7 +14,8 @@ export const SectionPosts: React.FC<SectionPostsProps> = ({
   return (
     <section>
       {posts.slice(0, visibleCount).map((post, index) => (
-        <div className={css.postItem}
+        <div
+          className={css.postItem}
           key={post.id}
           style={{
             border: `2px solid ${index % 2 === 0 ? "blue" : "green"}`,
