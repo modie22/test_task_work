@@ -1,0 +1,13 @@
+.nav{
+    width: 100%;
+}
+.list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+.list li{
+    font-size: large;
+    font-weight: 600;
+}
