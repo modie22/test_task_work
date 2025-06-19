@@ -5,7 +5,6 @@ import { FormPosts } from "components/FormPosts/FormPosts";
 export const FormPage = () => {
   return (
     <>
-      <Header />
       <FormPosts />
     </>
   );
