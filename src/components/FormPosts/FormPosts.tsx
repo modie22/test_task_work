@@ -52,9 +52,10 @@ export const FormPosts = () => {
   return (
     <main className={`container ${css.containerMain}`}>
       <h1 className={css.titleFormPage}>Публікації</h1>
-
+      <h2 className={css.titleForm}>Форма створення публікаії</h2>
       <form onSubmit={handleSubmit} className={css.formStyles}>
         <input
+          className={css.inputForm}
           type="text"
           placeholder="Заголовок"
           value={newPost.title}
@@ -63,6 +64,7 @@ export const FormPosts = () => {
         />
         <br />
         <textarea
+          className={css.inputForm}
           placeholder="Текст"
           value={newPost.body}
           onChange={(e) => setNewPost({ ...newPost, body: e.target.value })}
